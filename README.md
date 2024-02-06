@@ -1,3 +1,3 @@
 # MMP 240
-Course template
+First website url
 https://victoriabelandria.github.io/mmp240/
