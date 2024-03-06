@@ -1,0 +1,24 @@
+
+<!--putting the # means that you are selecting one id in specific-->
+<!--command A selects everything-->
+
+<head>
+
+background-color: black;
+</head>
+
+#wrapper { 
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
+background-color: white;
+padding: 1em;
+}
+
+header{
+ background-color:black
+ background-image:
+ background-repeat: no-repeat;
+ background-position: top right;
+
+}
