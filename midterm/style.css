@@ -1,24 +1,36 @@
+body{
+    background-color: white;
+}
 
-<!--putting the # means that you are selecting one id in specific-->
-<!--command A selects everything-->
-
-<head>
-
-background-color: black;
-</head>
 
 #wrapper { 
 width: 1200px;
-margin-left: auto;
-margin-right: auto;
+margin: 10px;
 background-color: white;
-padding: 1em;
+padding-left: 6%;
 }
 
-header{
- background-color:black
- background-image:
- background-repeat: no-repeat;
- background-position: top right;
+header {
+ background: linear-gradient(90deg,white 13.5%,white 16.87%, rgba(0,0,0,0.00) 44.03%, rgba(0, 0, 0, 0.00) 100%),
+ url(images/banner2.png) no-repeat top right/cover,
+ white;
+ padding:5em;
+}
 
+.banner-text{
+    font-size:1.2rem;
+    width:500px;
+    color:black;
+}
+
+.button{
+    display:block;
+    background-color: darkred;
+    color:white;
+    padding:8px;
+    border-radius: 8px;
+    width:5em;
+    text-align:center;
+    text-decoration: none;
+    text-transform: uppercase;
 }
