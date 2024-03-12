@@ -12,7 +12,17 @@ h1,h2,h3{
     color:chocolate;
   }
   
-p,p2,ul{
+p {
+font-display: center;
+font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    line-break: loose;
+color:#812D04
+}
+
+ul{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -20,6 +30,15 @@ p,p2,ul{
     line-break: loose;
 color:#812D04
   }
+
+p2{
+  font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    line-break: loose;
+  color:chocolate;
+}
   
 
 /* for comments this is the format*/
