@@ -1,13 +1,14 @@
 body{
-    background-color: rgba(0, 0, 0, 0.10);
+    background-color: whitesmoke;
 }
 
 
 #wrapper { 
 width: 1200px;
-margin: 10px;
+height: 1600px;
+margin-left: auto;
+margin-right: auto;
 background-color: white;
-padding-left: 6%;
 }
 
 header {
@@ -33,4 +34,51 @@ header {
     text-align:center;
     text-decoration: none;
     text-transform: uppercase;
+}
+*{
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+nav{
+    background-color: rgb(231, 227, 227);
+    padding-block: 2px;
+}
+
+nav a{
+    color:black 
+}
+
+nav  a:hover{
+    text-decoration: underline;
+}
+
+nav li{
+    display:inline-block;
+    margin-right: 1em;
+    padding-left:3em;
+}
+
+/* ******************* Main ***************** */
+
+main{
+    padding:5em;
+}
+
+.col-left{
+    float:left;
+    width:43%
+}
+
+.col-right{
+    float:right;
+    width:43%
+}
+
+footer{
+    clear:both;
+    padding:5em;
 }
