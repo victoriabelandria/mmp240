@@ -5,7 +5,7 @@ body{
 
 #wrapper { 
 width: 1200px;
-height: 1600px;
+height: 1000px;
 margin-left: auto;
 margin-right: auto;
 background-color: white;
@@ -80,5 +80,20 @@ main{
 
 footer{
     clear:both;
-    padding:5em;
+    padding-top:12em;
+    padding-left: 5em;
+}
+
+/* EPISODES */
+
+.flex.layout {
+display:flex;
+flex-wrap:wrap;
+
+}
+
+.card {
+    width: 22%;
+    margin:1em;
+    
 }
