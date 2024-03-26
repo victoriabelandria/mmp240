@@ -93,15 +93,22 @@ flex-direction: row;
 }
 .card{
     flex:1 0 auto;
-    width:240px;
+    width:200px;
     margin: 1em;
 }
 .img-card{
     width: 100%;
-    margin:1em;
      
 }
 
+section h3{
+    margin-left:1em;
+    
+}
+
+section h2{
+    margin-left:0.8em;
+}
 
 
 
