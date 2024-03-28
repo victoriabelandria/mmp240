@@ -5,7 +5,7 @@ body{
 
 #wrapper { 
 max-width: 1200px;
-height: 1000px;
+height: 1100px;
 margin-left: auto;
 margin-right: auto;
 background-color: white;
@@ -23,18 +23,24 @@ header {
     width:500px;
     color:black;
 }
+.button:hover {
+    background-color:darkred;
+}
 
 .button{
     display:block;
-    background-color: darkred;
+    background-color: #D11209;
     color:white;
     padding:8px;
     border-radius: 8px;
     width:5em;
     text-align:center;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: uppercase; 
 }
+
+
+
 *{
     text-decoration: none;
 }
@@ -110,5 +116,16 @@ section h2{
     margin-left:0.8em;
 }
 
+.banner-text, .button, ul, .col-left, .col-right, footer, .card, h2, h3  {
 
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
+@media screen and (min-width: 430px) {
+#wrapper {
+    max-width: 100%;
+}
+
+}
