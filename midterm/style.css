@@ -123,9 +123,5 @@ section h2{
     font-style: normal;
 }
 
-@media screen and (min-width: 430px) {
-#wrapper {
-    max-width: 100%;
-}
 
-}
+

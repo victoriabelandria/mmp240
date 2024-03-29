@@ -22,7 +22,7 @@ font-family: "Bebas Neue", sans-serif;
 color:#812D04
 }
 
-ul{
+ul, footer{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -31,15 +31,9 @@ ul{
 color:#812D04
   }
 
-p2{
-  font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2rem;
-    line-break: loose;
-  color:chocolate;
+footer {
+  color:black;
 }
-  
 
 /* for comments this is the format*/
 /*rem is equal to the default size of where you are working. for example for a website 16 px is 1 rem*/
