@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 9</title>
     <style>
+
+
+
       #wrapper{
           max-width: 1200px;
           margin-left:auto;
@@ -13,6 +16,26 @@
       .layout img{
         width:100%;
       }
+.layout{
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  grid-template-rows: auto auto auto;
+ grid-gap: 2%
+}
+
+/* span means the object will occupies the space from X to Y */
+
+.one {
+  grid-column-start:1;
+  grid-column-end:span 3;
+}
+
+.five {
+  grid-column-start: 1;
+  grid-column-end: span 3;
+}
+
+
     </style>
   </head>
   <body>
