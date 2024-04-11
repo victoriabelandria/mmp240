@@ -1,12 +1,41 @@
-.flex-container{
+/* Table of Contents
+1. page level styles - wrapper stuff
+2. typography
+3. utility styles
+4. header and top navigation
+5. program navigation
+6. homepage content 
+7. program pages
+8. media queries for larger viewports */
+
+/* reset is linked in html */
+
+/* 1. PAGE LEVEL STYLES */
+
+
+.search-bar{
     display:flex;
     justify-content:space-between;
+    padding-left: 1em;
+    padding-right: 1em;
+    align-content: baseline;
+
+}
+.float-right{
+    float: right;
 }
 
+/* 2. typography*/
 h1 {
     font-size:1.5rem;
 }
-
-#top-menu {
+/* 4. header and top nav */
+.top-menu{
     display:none;
 }
+
+.material-symbols-outlined {
+    font-size: 32px;
+padding-top: 0.5em;
+}
+
