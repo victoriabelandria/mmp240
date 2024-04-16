@@ -52,3 +52,8 @@ display: flex;
 align-content: center;
 align-items: flex-end;
 }
+
+.h2class span {
+    color: white;
+    float: center;
+}
