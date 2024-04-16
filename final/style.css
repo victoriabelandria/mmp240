@@ -47,5 +47,8 @@ padding-top: 0.5em;
     height: 400px;
     background-image: url("queenscollege.jpeg");
     background-size: cover;
-
+color: white;
+display: flex;
+align-content: center;
+align-items: flex-end;
 }
