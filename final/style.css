@@ -14,24 +14,27 @@
 
 
 .search-bar{
+    height: 50px;
     display:flex;
     justify-content:space-between;
     padding-left: 1em;
     padding-right: 1em;
-
-
 }
+
+
 .float-right{
     float: right;
 }
 
-/* 2. typography*/
-h1 {
-    font-size:1.5rem;
-}
-/* 4. header and top nav */
 .top-menu{
     display:none;
+    padding:0.5em;
+    border:solid 1px black;
+    background-color: white;
+    clear: right;
+    position:absolute;
+    right:0;
+    top:28px;
 }
 
 .material-symbols-outlined {
@@ -39,7 +42,10 @@ h1 {
 padding-top: 0.5em;
 }
 
-.banner {
-    max-width: 100%;
-}
+.h2class {
+    background-repeat: no-repeat;
+    height: 400px;
+    background-image: url("queenscollege.jpeg");
+    background-size: cover;
 
+}

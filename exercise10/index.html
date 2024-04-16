@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+    ul{
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+background-color: darkkhaki;
+border-bottom: solid 1px white;
+    }
+
+    nav a{
+        color: black;
+        text-decoration: none;
+        display: block;
+        padding: 5px;
+    }
+
+li ul {
+    display:none;
+}
+
+li:hover ul {
+    display:block;
+    padding: 2px;
+}
+
+li li {
+    background-color: yellow;
+}
+
+.expand{
+    float:right;
+}
+
+</style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+            <a href="">Fruits</a>
+                <ul>
+                    <li><a href="">Apples</a></li>
+                    <li><a href="">Pears</a></li>
+                    <li><a href="">Oranges</a></li>
+                </ul>
+            </li>
+            <li><a href="">Vegetables</a>
+            <ul>
+                <li> <a href="">Carrots</a></li>
+                <li> <a href="">Peppers</a></li>
+                <li> <a href="">Cucumbers</a></li>
+            </ul>
+        </li>
+        </ul>
+    </nav>
+</body>
+
+</html>
