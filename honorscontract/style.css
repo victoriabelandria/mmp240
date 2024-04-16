@@ -4,20 +4,19 @@ margin:0;
 text-decoration: none;
 list-style: none;
 box-sizing: border-box;
-}
-
-body {
-  font-family: "Mukta Malar", sans-serif;
-  font-weight: 600; 
- }     
+}    
 
  nav {
     background: #0046B3;
-    height: 80px;
+    height: 40px;
     width: 100%;
  } 
  
-
-
+ nav ul {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding-top: 8px;
+ }
 
 
