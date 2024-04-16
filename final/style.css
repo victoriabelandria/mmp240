@@ -55,5 +55,25 @@ align-items: flex-end;
 
 .h2class span {
     color: white;
-    float: center;
+    position: absolute;
+    left: 20%;
+    top: 55%;
+    right: 20%;
+    text-align: center;
 }
+
+   @media (max-width: 567px) {
+    .h2class span {
+        top: 55%;
+        font-size: medium;
+    }
+}
+
+@media (min-width: 568px) { 
+    .h2class span {
+        top: 51%;
+        font-size: larger;
+    }
+
+}
+
