@@ -68,95 +68,112 @@ h3 {
     padding-left: 3%;
 }
 
-   @media (max-width: 567px) {
-    .h2class span {
-        top: 74%;
-        font-size: medium;
-    }
+.h2class span {
+    top: 85%;
+    font-size: small;
+}
 
-    nav ul {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-        background: #B03014;
-        color: whitesmoke;
-        border-radius: 3px;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    ul li {
-        position: relative;
-    }
-    
-    ul li a {
-        display: block;
-        padding: 20px 25px;
-        color: whitesmoke;
-        text-decoration: none;
-        text-align: center;
-    }
-    
-    ul li ul.dropdown li {
-        display: block;
-        text-align: center;
-    }
-    
-    ul li ul.dropdown {
-        width: 100%;
-        background: whitesmoke;
-        position: absolute;
-        z-index: 999;
-        display: none;
-        color: black;
-    }
-    
-    ul li:hover ul.dropdown {
-        background: #7c220e;
-        display: block;
-    }
-    }
-    
+.program-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style:none;
+    color: whitesmoke;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:95%;
+    position:absolute;
+}
+
+.program-nav li {
+    position:relative;
+    margin-top:2px;
+    margin-bottom:2px;
+    background: #B03014;
+    width:100%;
+}
+
+.program-nav li a {
+display: block;
+padding: 20px 25px;
+color: whitesmoke;
+text-decoration: none;
+text-align: center;
+}
+
+.program-nav li ul.dropdown li {
+    display: block;
+    text-align: center;
+    width:100%;
+    border-top: solid 2px white;
+}
+
+.program-nav li ul.dropdown {
+    width: 100%;
+    background: whitesmoke;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    color:black;
+}
+
+.program-nav li:hover ul.dropdown {
+    background: none;
+    display: block;
+}
+
+.program-nav li.dropdown-parent:hover ul.dropdown li.dropdown-kid a:hover {
+    background: #761c08;
+}
+
+
 
 @media (min-width: 568px) { 
     .h2class span {
-        top: 70%;
+        top: 80%;
         font-size: larger;
     }
 
-    nav ul {
+    .program-nav nav {
+        padding-left: 2%;
+    }
+    .program-nav ul {
         padding: 0;
         margin: 0;
         list-style:none;
-        background: #B03014;
         color: whitesmoke;
         border-radius: 3px;
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         width:95%;
         position:absolute;
-        left:2.2%
     }
     
-    ul li {
-        display:inline-block;
+    .program-nav li {
         position:relative;
+        margin-left:3px;
+        margin-right:3px;
+        background: #B03014;
+        width:30%;
     }
     
-    ul li a {
+    .program-nav li a {
     display: block;
-    padding: 20px 25px;
     color: whitesmoke;
     text-decoration: none;
     text-align: center;
     }
     
-    ul li ul.dropdown li {
+   .program-nav li ul.dropdown li {
         display: block;
         text-align: center;
+        width:100%;
+        margin-left: 0;
     }
     
-    ul li ul.dropdown {
+   .program-nav li ul.dropdown {
         width: 100%;
         background: whitesmoke;
         position: absolute;
@@ -164,10 +181,15 @@ h3 {
         display: none;
         color:black;
     }
-    
-    ul li:hover ul.dropdown {
-        background: #7c220e;
+
+    .program-nav li:hover ul.dropdown {
+        background: none;
         display: block;
+    }
+    
+
+    .program-nav li.dropdown-parent:hover ul.dropdown li.dropdown-kid a:hover {
+        background: #761c08;
     }
 
 }
