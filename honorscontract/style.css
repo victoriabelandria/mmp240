@@ -82,12 +82,12 @@ color: black;
   ul {
     position:fixed;
     width:100%;
- /* left:-100%; */
  left:-100%;
 text-align:left;
 transition: all .5s;
 z-index: 1000;
   }
+
   nav ul li {
     display: block;
     background-color: white; 
@@ -106,7 +106,7 @@ z-index: 1000;
   }
 }
 
-/* language bar and text-size small screen  */
+/* language bar and text-size for small screen  */
 
 .language-dropdown {
   transition:none;
