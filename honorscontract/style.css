@@ -40,7 +40,7 @@ a {
   }
 
   #blackheader .upper-header-left{
-    padding-left: 2rem;
+    padding-left: 1rem;
    }
 }
 
@@ -52,8 +52,8 @@ a {
 
 
 #dropdown {
-  padding: 0;
-  margin: 0;
+  padding-left: 0;
+  margin-left: 0;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
@@ -82,23 +82,32 @@ color: black;
   ul {
     position:fixed;
     width:100%;
-    height: 100vh;
-background:white;
-top: 80px;
-left:-100%;
-text-align:center;
+ /* left:-100%; */
+ left:-100%;
+text-align:left;
 transition: all .5s;
+z-index: 1000;
   }
-nav ul li{
-  display: block;
-  background-color: #fff;
-}
-  nav ul li a{
-font-size: 20px;
-background-color: #fff;
+  nav ul li {
+    display: block;
+    background-color: white; 
+    border-bottom: 1px solid #0046B3; 
+  }
+
+  nav ul li a {
+    font-size: 28px;
+    background-color: white; 
+    padding-left: 40px;
+    line-height: 2.3;
   }
 
   #check:checked ~ ul{
     left: 0;
   }
+}
+
+/* language bar and text-size small screen  */
+
+.language-dropdown {
+  transition:none;
 }
