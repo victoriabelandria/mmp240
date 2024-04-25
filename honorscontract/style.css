@@ -45,6 +45,7 @@ a {
 }
 
 /*Top White Header*/
+
 .blue-logo {
   width:230px;
   height: auto;
@@ -111,3 +112,13 @@ z-index: 1000;
 .language-dropdown {
   transition:none;
 }
+
+.dropdown-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navigation Bar*/
+
+
