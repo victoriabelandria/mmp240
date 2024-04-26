@@ -1,3 +1,4 @@
+
 /*Top black header*/
 
 #blackheader {
@@ -34,23 +35,27 @@ a {
   color:#fff; 
 }
 
-@media (max-width:786px) {
-  .right-blackheader{
-    display:none;
-  }
-
-  #blackheader .upper-header-left{
-    padding-left: 1rem;
-   }
+.right-blackheader{
+  display:none;
 }
 
+#blackheader .upper-header-left{
+  padding-left: 1rem;
+ }
+
+
+
 /*Top White Header*/
+/* & language bar and text-size */
 
 .blue-logo {
   width:230px;
   height: auto;
 }
-
+.language-container{
+  display:flex;
+  justify-content: space-around;
+}
 
 #dropdown {
   padding-left: 0;
@@ -75,40 +80,6 @@ color: black;
 
 }
 
-@media (max-width: 858px){
-  .checkbtn{
-    display:block;
-  }
-
-  ul {
-    position:fixed;
-    width:100%;
- left:-100%;
-text-align:left;
-transition: all .5s;
-z-index: 1000;
-  }
-
-  nav ul li {
-    display: block;
-    background-color: white; 
-    border-bottom: 1px solid #0046B3; 
-  }
-
-  nav ul li a {
-    font-size: 28px;
-    background-color: white; 
-    padding-left: 40px;
-    line-height: 2.3;
-  }
-
-  #check:checked ~ ul{
-    left: 0;
-  }
-}
-
-/* language bar and text-size for small screen  */
-
 .language-dropdown {
   transition:none;
 }
@@ -119,6 +90,83 @@ z-index: 1000;
   align-items: center;
 }
 
-/* Navigation Bar*/
+  .checkbtn{
+    display:block;
+  }
 
+  .sm-menu {
+    position:fixed;
+    width:100%;
+ left:-100%;
+text-align:left;
+transition: all .5s;
+z-index: 1000;
+  }
+
+ .sm-menu li {
+    display: block;
+    background-color: white; 
+    border-bottom: 1px solid #0046B3; 
+  }
+
+  .sm-menu li a {
+    font-size: 28px;
+    background-color: white; 
+    padding-left: 40px;
+    line-height: 2.3;
+  }
+
+  #check:checked ~ .sm-menu{
+    left: 0;
+  }
+
+/* Landing Page */
+
+#section-1 { 
+ position:relative;
+}
+  .family-image{
+    position: relative;
+  }
+
+  .white-block{
+    position: absolute;
+   top:90px;
+   left: 50px;
+   opacity: 0.7;
+   width:80%;
+  }
+
+
+/* Media */
+
+@media (min-width: 768px){
+
+
+  .main-nav{
+    justify-content: space-between;
+    width:100%;
+  }
+  .right-blackheader{
+    display:block;
+  }
+
+  .navbar-nav {
+    padding-left: 2px;
+    padding-right: 8px;
+    justify-content:space-evenly;
+  }
+
+  .language-container {
+    padding-right: 0;
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 576px) {
+.nav-bar{
+  display: block;
+}
+
+}
 
