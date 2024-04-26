@@ -122,22 +122,28 @@ z-index: 1000;
 
 /* Landing Page */
 
-.hero {
-position: relative;
-background-color:#0046B3;
-background-image: url("assets/IMAGE1.png");
-background-repeat: no-repeat;
-background-size: cover;
-color:#0046B3;
-height: 600px;
-}
 .white-image {
+  display:block;
   position:absolute;
   opacity: 0.6;
   width:85%;
   top:23%;
   left:8%;
 }
+
+.hero {
+position: relative;
+background-color:#fff;
+background-image: url("assets/IMAGE1.png");
+background-repeat: no-repeat;
+background-size: cover;
+color:#0046B3;
+height: 600px;
+}
+
+
+
+
 
 
 
@@ -170,6 +176,15 @@ height: 600px;
     padding-right: 0;
     justify-content: space-evenly;
   }
+
+  .hero {
+  background-size: 50%;
+  }
+
+  .hero-text {
+float:right;
+  }
+
 }
 
 @media (min-width: 576px) {
