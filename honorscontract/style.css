@@ -123,14 +123,13 @@ z-index: 1000;
 /* Landing Page */
 
 .hero {
-position: relative;
 background-color:#fff;
 background-image: url("assets/IMAGE1.png");
 background-repeat: no-repeat;
-background-size: 50rem;
+background-size: cover;
 background-position: center;
 color:#0046B3;
-height: 40rem;
+height: 20rem;
 text-align: center;
 }
 
@@ -177,11 +176,6 @@ text-align: center;
   .language-container {
     padding-right: 0;
     justify-content: space-evenly;
-  }
-
-  .hero {
-  background-size: 50%;
-  background-position: top left;
   }
 
   .hero-text {
