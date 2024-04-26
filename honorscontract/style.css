@@ -122,20 +122,15 @@ z-index: 1000;
 
 /* Landing Page */
 
-#section-1 { 
- position:relative;
+.hero {
+background-color:#0046B3;
+background-image: url("assets/IMAGE1.jpeg");
+color:#0046B3;
 }
-  .family-image{
-    position: relative;
-  }
 
-  .white-block{
-    position: absolute;
-   top:90px;
-   left: 50px;
-   opacity: 0.7;
-   width:80%;
-  }
+
+
+
 
 
 /* Media */
