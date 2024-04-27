@@ -24,7 +24,7 @@
 
 #blackheader span:last-child{
   border:none;
-  padding-right: 10rem;
+  padding-right: 8rem;
 }
 
 .upper-header-left img {
@@ -101,6 +101,8 @@ color: black;
 text-align:left;
 transition: all .5s;
 z-index: 1000;
+height: 100%;
+background-color: #fff;
   }
 
  .sm-menu li {
@@ -122,22 +124,14 @@ z-index: 1000;
 
 /* Landing Page */
 
-.hero {
-background-color:#fff;
-background-image: url("assets/IMAGE1.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-color:#0046B3;
-height: 20rem;
-text-align: center;
+.background-gradient {
+  background-image: url(/workspaces/mmp240/honorscontract/assets/gradient-background.png);
+  background-repeat: no-repeat;
+  background-color: #0046B3;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
 }
-
-.hero-text h1 {
- padding-top:120px ;
-}
-
-
 
 
 
@@ -154,6 +148,9 @@ text-align: center;
 
 @media (min-width: 768px){
 
+  #blackheader .upper-header-left{
+    padding-left: 9rem;
+   }
 
   .main-nav{
     justify-content: space-between;
