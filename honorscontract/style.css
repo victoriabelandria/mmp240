@@ -124,13 +124,17 @@ background-color: #fff;
 
 /* Landing Page */
 
-.background-gradient {
-  background-image: url(/workspaces/mmp240/honorscontract/assets/gradient-background.png);
+ .bg-gradient {
+  background-image: url(/workspaces/mmp240/honorscontract/assets/gradient-background2.png);
   background-repeat: no-repeat;
-  background-color: #0046B3;
-  height: 30vh;
-  background-size: cover;
+  background-color: pink;
+  height: 40vh;
+  background-size:cover;
   background-position: center;
+}
+
+.bg-gradient .h1-blue {
+  color:#0046B3
 }
 
 
