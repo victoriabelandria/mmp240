@@ -31,9 +31,6 @@
 width: 40px;
 }
 
-a {
-  color:#fff; 
-}
 
 .right-blackheader{
   display:none;
@@ -160,6 +157,10 @@ p {
     color:#fff
   }
 
+  .footer a {
+    color: black;
+  }
+  
 
 /* Media */
 
@@ -201,20 +202,20 @@ p {
 }
 
 .bg-gradient .h1-blue {
-  font-size: 5rem;
+  font-size: 50px;
 }
 
-.bg-gradient {
+/* .bg-gradient {
   height: 23rem;
-}
+} */
 
 .bg-solid .h1-solid {
-  font-size: 5rem;
+  font-size: 50px;
 }
 
-.bg-solid {
+/* .bg-solid {
   height: 23rem;
-}
+} */
 
 }
 
