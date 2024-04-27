@@ -217,6 +217,9 @@ p {
   height: 23rem;
 } */
 
+.w-50 {
+  width: 25% !important;
+}
 }
 
 @media (min-width: 576px) {
