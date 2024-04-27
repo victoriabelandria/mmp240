@@ -125,7 +125,7 @@ background-color: #fff;
 /* Landing Page */
 
  .bg-gradient {
-  background-image: url(/workspaces/mmp240/honorscontract/assets/gradient-background2.png);
+  background-image: url(assets/gradient-background2.png);
   background-repeat: no-repeat;
   background-color: pink;
   height: 40vh;
@@ -137,7 +137,10 @@ background-color: #fff;
   color:#0046B3
 }
 
-
+.lead-blue {
+  font-size: 2rem;
+  color:#0046B3;
+}
 
 
 
@@ -197,7 +200,13 @@ p {
   line-height: 1.2rem;
 }
 
-
+.bg-gradient .h1-blue {
+  color:#0046B3;
+  font-size: 5rem;
+}
+.bg-gradient {
+  height: 50vh;
+}
 }
 
 @media (min-width: 576px) {
