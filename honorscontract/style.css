@@ -160,8 +160,35 @@ p {
   .footer a {
     color: black;
   }
-  
 
+  .copyright p {
+    font-size: 12px;
+    font-weight:bolder;
+    padding:0;
+    margin:0;
+  }
+
+  /* WORK */
+  
+  header {
+background-color:#022E72;
+background-repeat: no-repeat;
+background-size: cover;
+color:#fff
+  }
+
+  .color-overlay{
+    min-height: 30vh;
+    background-color: rgba(0,0,0,.3);
+  }
+
+  .h1-herobanner {
+    font-size: 4rem;
+  }
+
+  .bg-primary {
+    background-color: #0046B3 !important;
+  }
 /* Media */
 
 @media (min-width: 768px){
@@ -205,21 +232,23 @@ p {
   font-size: 50px;
 }
 
-/* .bg-gradient {
-  height: 23rem;
-} */
-
 .bg-solid .h1-solid {
   font-size: 50px;
 }
 
-/* .bg-solid {
-  height: 23rem;
-} */
 
 .w-50 {
   width: 25% !important;
 }
+
+.color-overlay{
+  min-height: 50vh;
+}
+
+.h1-herobanner {
+  font-size: 7rem;
+}
+
 }
 
 @media (min-width: 576px) {
