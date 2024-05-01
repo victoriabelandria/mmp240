@@ -9,6 +9,12 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&family=Mukta+Malar:wght@200;300;400;500;600;700;800&family=Nabla&family=Sixtyfour&display=swap" rel="stylesheet"> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#myModal").modal('show');
+    });
+</script>
     <link href="style.css" rel="stylesheet">
     <title>Services for Recently Arrived Immigrants</title>
 
@@ -84,7 +90,7 @@
 
     <!-- navigation bar -->
 
-    <div class="container">
+    <div class="container mb-2">
         <div class="row">
             <nav class="navbar navbar-expand-md navbar-dark col-md-8 p-0" style="background-color: #0046B3 !important">
                 <div class="container">
@@ -147,13 +153,7 @@
 
     <!-- Modal -->
 
-    <div class="container text-center p-2 text-danger">
-        <button class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
-            Change Language? Click Here!
-        </button>
-    </div>
-
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
