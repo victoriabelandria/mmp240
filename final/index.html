@@ -12,32 +12,32 @@
   <!--SHORTCUT div#wrapper>header>h1+nav>ul+form  NOTE > means "inside of" and + means sibling of the element-->
         <!--SHORTCUT Option Shift F to organize code-->
 <body>
-    <div id="wrapper">
-        <header class="search-bar">
-            <h1>
-                <img src="LOGO2.jpg" alt="logo">
-            </h1>
-            <nav>
-                <span class="material-symbols-outlined float-right">menu</span>
-                <div class="top-menu">
-                    <ul>
-                        <li><a href="https://www.cuny.edu/about/">About Cuny</a></li>
-                        <li><a href="https://www.cuny.edu/financial-aid/">Financial Aid</a></li>
-                        <li><a href="https://www.cuny.edu/admissions/undergraduate/apply/cuny-application/?utm_source=navigation">Apply</a></li>
-                    </ul>
-                    <form action="#">
-                        <input type="search" name="search" value="search">
-                        <input type="submit">
-                    </form>
-                </div> <!--wrapper-->
-            </nav> 
-        </header>
-    <div class="program-nav">
-       <!-- <h1>CUNY Design </h1> -->
-    <h2 class="h2class">
-         <span> Queens College ranked in top 25 of Best Public Colleges and Universities for graphic design in the nation </span> 
-         </h2>
-    <h3 class="h3class"> Find a Design Program!</h3>
+    <div id="container">
+
+        <!-- TOP NAVIGATION-->
+            <div class="topnav">
+                <img src="LOGO2.jpg" alt="logo" style="max-height: 40px;">
+                <nav>
+                    <a href="#">ABOUT</a>
+                    <a href="#">FINANCIAL AID</a>
+                    <a href="#">APPLY</a>
+                    <input type="text" placeholder="Search..">
+                </nav>
+        </div>
+         <!--END OF TOP NAVIGATION -->
+
+         <!-- HERO BANNER -->
+    <div class="hero-banner">
+        <h1> Queens College ranked in top 25 of Best Public Colleges and Universities for graphic design in the nation 
+        </h1>
+    </div>
+    <!-- END OF HERO BANNER -->
+
+    <!--PROGRAM NAV-->
+    <span id="h1-landingpage">
+        <h1>Find a Design Program</h1>
+    </span>
+
     <nav>
         <ul class="menu-nav"> 
             <li class="dropdown-parent"><a href="">Discipline</a>
@@ -63,7 +63,8 @@
             </li>
         </ul>
     </nav>
-    </div> <!--program-nav-->
+<!-- END OF PROGRAM NAV -->
+    </div> 
     <div>
         <main>
             <section class="news">
@@ -93,6 +94,7 @@
                 </articles>
             </section>
         </main>
+    </div>
     </div>
 
 </body>
