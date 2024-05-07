@@ -18,48 +18,16 @@
     position:absolute;
     left:50%;
     transform: translate(-50%);
+    font-family:'Roboto', normal, sans-serif;
 }
 
-.topnav {
-    overflow: hidden;
-    background-color: #fff;
-    display:flex;
-    justify-content: space-between;
-    padding:16px
-  }
-  
- 
-  .topnav a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-    border-radius:5%;
-  }
-  
-  .topnav a.active {
-    background-color: #2196F3;
-    color: white;
-  }
-  
-  .topnav input[type=text] {
-    float: right;
-    padding: 6px;
-    border: 2px #000 solid rounded ;
-    font-size: 17px;
-    margin-top:5px;
-    margin-left:5px;
-  }
-  
-
+*{
+    padding: 0;
+    margin: 0;
+}
+.topnav{
+padding:14px;
+}
  .hero-banner{
     display:flex;
     background-color: #761c08;
@@ -71,167 +39,79 @@
 }
 
 .hero-banner h1 {
+    font-family: 'Times New Roman', Times, serif;
     font-size:20px;
     position:absolute;
     color:#fff;
-    width:80%;
     text-align: center;
     left: 10%;
-    top:57%
+    right: 10%;
+    top:53%;
 }
 
 #h1-landingpage h1{
     padding-left:10px;
     font-size: 23px;
     padding-top:15px;
+    padding-bottom: 15px;
 }
 
-/* JDHSGJHLEHGLWEI */
-
-.material-symbols-outlined {
-    font-size: 32px;
-padding-top: 0.5em;
-}
-
-.menu-nav {
-    padding: 0;
-    margin: 0;
+ul {
     list-style:none;
-    color: whitesmoke;
-    border-radius: 3px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width:100%;
-    position:absolute;
-}
-
-.menu-nav li {
-    position:relative;
-    margin-top:2px;
-    margin-bottom:2px;
     background: #B03014;
-    width:100%;
-    list-style: none;
 }
 
-.menu-nav li a {
-display: block;
-padding: 20px 25px;
-color: whitesmoke;
-text-decoration: none;
-text-align: center;
+ul li {
+    display:inline-block;
+    position:relative;
 }
 
-.menu-nav li ul.dropdown li {
-    display: block;
+ul li a {
+    display:block;
+    padding: 20px 25px;
+    color: #fff;
+    text-decoration: none;
     text-align: center;
-    width:100%;
-    border-top: solid 2px white;
 }
 
-.menu-nav li ul.dropdown {
+ul li ul.dropdown li {
+    display:block;
+}
+
+ul li ul.dropdown {
     width: 100%;
-    background: whitesmoke;
+    background: #B03014;
     position: absolute;
     z-index: 999;
-    display: none;
-    color:black;
+    display:none;
 }
 
-.menu-nav li:hover ul.dropdown {
-    background: none;
-    display: block;
-}
-
-.menu-nav li.dropdown-parent:hover ul.dropdown li.dropdown-kid a:hover {
+ul li a:hover {
     background: #761c08;
 }
 
+ul li:hover ul.dropdown{
+    display:block;
+}
 
+@media (min-width: 720px) { 
 
-@media (min-width: 568px) { 
-
+#container {
+    width: 75%;
+}
 
 .hero-banner h1 {
     font-size:25px;
-    position:absolute;
-    color:#fff;
-    width:75%;
-    text-align: center;
-    left: 10%;
-    top:60%
+    width:60%;
+    left:20%;
+    top:48%
 }
 
-    .menu-nav nav {
-        padding-left: 2%;
-    }
-
-    .menu-nav ul {
-        padding: 0;
-        margin: 0;
-        list-style:none;
-        color: whitesmoke;
-        border-radius: 3px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width:100%;
-        position:absolute;
-    }
-    .menu-nav {
-        padding: 0;
-        margin: 0;
-        list-style:none;
-        color: whitesmoke;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width:100%;
-    }
-    
-    .menu-nav li {
-        position:relative;
-        margin-left:3px;
-        margin-right:3px;
-        background: #B03014;
-        width:30%;
-        border-radius: 5px;
-    }
-    
-    .menu-nav li a {
-    display: block;
-    color: whitesmoke;
-    text-decoration: none;
-    text-align: left;
-    font-size: 18px;
-    }
-    
-   .menu-nav li ul.dropdown li {
-        display: block;
-        text-align: center;
-        width:100%;
-        margin-left: 0;
-    }
-    
-   .menu-nav li ul.dropdown {
-        width: 100%;
-        background: whitesmoke;
-        position: absolute;
-        z-index: 999;
-        display: none;
-        color:black;
-    }
-
-    .menu-nav li:hover ul.dropdown {
-        background: none;
-        display: block;
-    }
-    
-
-    .menu-nav li.dropdown-parent:hover ul.dropdown li.dropdown-kid a:hover {
-        background: #761c08;
+.menu-nav {
+    display: flex;
+    align-content: center;
+    align-items:center;
+    justify-content: space-between;
     }
 
 }
-
