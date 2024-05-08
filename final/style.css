@@ -51,7 +51,6 @@ a{
 
 .nav-menu{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 60px;
 }
@@ -247,6 +246,7 @@ border-radius: 2%;
 
 .card h6 {
     padding-bottom: 6px;
+    font-size: 14px;
 }
 
 .card-link {
@@ -274,9 +274,6 @@ padding-left: 3%;
     width: 75%;
 }
 
-.bar {
-    display:none;
-}
 
 nav {
     padding-bottom:3rem;
