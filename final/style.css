@@ -100,7 +100,7 @@ left: 0;
 
 .nav-menu .nav-menu-item .nav-link:hover {
     background: #fff;
-    color:black;
+    color:#6a1806af;
 }
 
 .bar{
@@ -116,8 +116,8 @@ left: 0;
  .hero-banner{
     display:flex;
     background-color: #761c08;
-    background-image: url("assets/herobanner-lg.jpeg");
-    height: 500px;
+    background-image: url("assets/queenscollege.jpeg");
+    height: 40vh;
     width:auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -125,8 +125,8 @@ left: 0;
    text-align: center;
    justify-content: space-around;
    padding: 2%;
-   font-family: 'Times New Roman', Times, serif;
-   font-size:10px;
+   font-family:serif;
+   font-size:8px;
    color:#fff;
 }
 
@@ -134,7 +134,14 @@ left: 0;
     padding-left:10px;
     font-size: 23px;
     padding-top:15px;
-    padding-bottom: 15px;
+    color: #761c08;
+    padding-bottom: 1rem;
+}
+
+.h1-subtitles {
+    padding-left:10px;
+    font-size: 23px;
+    padding-top:15px;
     color: #761c08;
 }
 
@@ -181,18 +188,45 @@ ul li:hover ul.dropdown{
     display:block;
 }
 
-div .link {
+ .link {
 color:#B03014;
 font-weight: bold;
+text-decoration: underline;
 }
 
 p {
-    padding-bottom: 1%;
+    line-height: 28px;
+    padding-bottom: 1rem;
 }
 
 h4 {
-    padding-bottom: 2%;
+    line-height: 28px;
+    padding-bottom: 1rem;
 }
+
+.item-1 {
+    padding-bottom: 2rem;
+}
+
+.h1-subtitles {
+    padding-bottom: 1rem;
+}
+
+.item-2 .img-events {
+    width:100%;
+    padding-bottom: 30px
+    }
+
+.footer {
+    position: fixed;
+    top:100%;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    align-content: end;
+    height: 10%;
+ }
 
 @media (min-width: 720px) { 
 
@@ -203,6 +237,11 @@ h4 {
 .bar {
     display:none;
 }
+
+nav {
+    padding-bottom:3rem;
+}
+
 
 ul li {
     display:inline-block;
@@ -224,7 +263,17 @@ ul .dropdown-parent {
 }
 
 .hero-banner{
-    font-size:12px;
+    font-size:10px;
+    height: 60vh
+}
+
+.container {
+    display: flex;
+    gap: 3rem;
+}
+
+.footer {
+    height: 20%;
 }
 
 }
