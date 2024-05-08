@@ -217,6 +217,46 @@ h4 {
     padding-bottom: 30px
     }
 
+.box{
+    display:grid;
+    row-gap: 30px;
+    column-gap: 10px;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: space-around;
+}
+
+.card {
+width: 250px;
+display: grid;
+width:100%;
+padding:2%;
+border: solid 2px #B03014;
+border-radius: 2%;
+}
+
+.card h4 {
+    padding-top:2px;
+    padding-bottom:2px;
+    color:#761c08
+}
+
+.card h5 {
+    padding-top:6px;
+    text-align: center;
+}
+
+.card h6 {
+    padding-bottom: 6px;
+}
+
+.card-link {
+    color:#B03014;
+font-weight: bold;
+text-decoration: underline;
+font-size: 14px;
+padding-left: 3%;
+}
+
 .footer {
     position: fixed;
     top:100%;
