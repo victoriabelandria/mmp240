@@ -1,41 +1,50 @@
-
 body {
-    background-color: rgb(240, 197, 88);
-    padding: 3rem;
-    margin: 0 auto;
-}
-h1,h2,h3{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 6rem; 
-    color:chocolate;
-  }
-  
-p {
-font-display: center;
-font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2rem;
-    line-break: loose;
-color:#812D04
+  background-color: rgb(240, 197, 88);
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-ul, footer{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2rem;
-    line-break: loose;
-color:#812D04
-  }
+h1,
+h2,
+h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 6rem;
+  color: chocolate;
+}
+
+p {
+  font-display: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  line-break: loose;
+  color: #812D04;
+   float:left;
+
+}
+
+ul,
+footer {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  line-break: loose;
+  color: #812D04
+}
+
+img {
+  float: right;
+
+}
 
 footer {
-  color:black;
+  color: black;
 }
 
 /* for comments this is the format*/
 /*rem is equal to the default size of where you are working. for example for a website 16 px is 1 rem*/
-
-
