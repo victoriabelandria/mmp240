@@ -258,14 +258,14 @@ padding-left: 3%;
 }
 
 .footer {
-    position: fixed;
+    position: sticky;
     top:100%;
     width: 100%;
     background-color: white;
     color: black;
     text-align: center;
     align-content: end;
-    height: 10%;
+    height: 15rem;
  }
 
 @media (min-width: 720px) { 
@@ -310,7 +310,7 @@ ul .dropdown-parent {
 }
 
 .footer {
-    height: 20%;
+    height: 20rem;
 }
 
 }
